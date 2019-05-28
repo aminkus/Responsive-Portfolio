@@ -1,0 +1,141 @@
+body {
+    background-color:lightslategrey;
+    margin:0;
+    padding:0;
+    line-height:2;
+    color:  #777777;
+    position: relative;
+}
+
+header {
+    background: #ffffff;
+   height: 70px;
+   margin-bottom: 25px;
+   border-bottom: solid 2px pink;;
+}
+
+#section1 {
+    width:960px;
+    margin:0 auto;
+    border: solid 1px #cccccc;
+}
+
+h1 {
+    margin:0;
+    margin-right:0;
+    padding-right:0;
+    background-color:#4aaaa5;
+    height: 70px;
+}
+
+#name {
+    text-align: center;
+    width:30%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.links {
+    width:50%;
+    float: right;
+    text-align: right;
+    padding-top: 12px;
+    word-spacing: 5px;
+}
+
+.section2 {
+    width:960px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 3px #ffffff;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    clear: both;
+}
+
+.content {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 800px;
+   
+}
+
+
+#aboutMe {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+.fontStyle {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    height: 75px;
+    background-color:  #777777;
+    border-top: solid 5px;
+    border-color: pink;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+   
+}
+
+#copy {
+    margin: 0;
+    color:white;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+#submit {
+    width: 75px;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.pic1 {
+    float: left;
+    padding-left: 25px;
+}
+
+.pic2 {
+    float: left;
+}
+
+.pic3 {
+    float: left;
+}
+
+.pic4 {
+    float: left;
+}
+
+.container {
+    position:relative;
+}
+
+.pictext {
+    position: absolute;
+    bottom: 0;
+    padding-left: 75px;
+    background-color: #4aaaa5;
+    width: 200px;
+    box-sizing: border-box;
+    color: white;
+}
+
