@@ -136,16 +136,15 @@ input {
 
     
     h1 {
-        margin-left: 25px; 
+        font-size: 30px;
     }
 
    #section1 {
-       width: 100%;
+       width: 85vw;
        margin-bottom: 40px;
-       margin-left: 25px;
    }
    .section2 {
-       width: 75%;
+       width: 100%;
        padding:20px;
    }
 
@@ -153,8 +152,12 @@ input {
        margin-bottom: 100px;
    }
     
+   #name {
+       width:40%;
+   }
    .links {
        padding-right: 50px;
+       width: 50%;
    }
 
    textarea {
@@ -169,13 +172,13 @@ input {
         width:100%;
     }
 
-    #name {
-        width: 40%;
+    /* #name {
+        width: 100;
     }
 
     .links {
-       width: 30%; 
-    }
+       width: 100%; 
+    } */
 
 }
 
@@ -183,8 +186,10 @@ input {
     
 
     #name {
-        width:100%;
+        width:100vw;
         text-align: center;
+        margin: 0 auto;
+      
     }
 
     #selfpic {
@@ -192,20 +197,26 @@ input {
     }
     header {
         width: 100%;
-        margin: 0 auto;
+        height: 150px;
     }
 
     .links {
       width:100%;
       display: flex;
       justify-content: center;
+      padding-right: 0;
     }
 
     .links a {
         padding: 10px;
     }
+
+    .section1 {
+        margin-left: 0;
+    }
     .section2 {
         width: 75%;  
         overflow: scroll;
+        margin-top:50px;
     }
 }
