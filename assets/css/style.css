@@ -49,12 +49,10 @@ h1 {
     margin: 0 auto;
     height: 750px;
     background-color: white;
-    border: solid 3px #ffffff;
+    border: solid 3px #ffffff9a;
     margin-bottom: 100px;
     padding-bottom: 25px;
-    clear: both;
-    /* overflow: scroll; */
-  
+    clear: both; 
 }
 
 .content {
@@ -120,23 +118,6 @@ input {
     color: white;
 }
 
-/* .pic1 {
-    float: left;
-    padding-left: 25px;
-}
-
-.pic2 {
-    float: left;
-}
-
-.pic3 {
-    float: left;
-}
-
-.pic4 {
-    float: left;
-} */
-
 .container {
     position:relative;
 }
@@ -176,10 +157,6 @@ input {
        padding-right: 50px;
    }
 
-   .pic4 {
- 
-   }
-
    textarea {
        width: 100%;
    }
@@ -192,19 +169,30 @@ input {
         width:100%;
     }
 
+    #name {
+        width: 40%;
+    }
+
+    .links {
+       width: 30%; 
+    }
+
 }
 
 @media screen and (max-width: 640px) {
     
+
     #name {
         width:100%;
+        text-align: center;
     }
 
     #selfpic {
         float: none;
     }
     header {
-        position: static;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .links {
@@ -215,11 +203,9 @@ input {
 
     .links a {
         padding: 10px;
-
     }
-
     .section2 {
-        width: 75%;
+        width: 75%;  
         overflow: scroll;
     }
 }
